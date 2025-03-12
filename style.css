@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background:url(https://img.freepik.com/vector-gratis/fondo-pantalla-borroso-dia-san-valentin_23-2148819570.jpg?semt=ais_hybrid);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.contenedor-caja {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.caja {
+    width: 580px;
+    margin: 40px auto;
+    padding: 15px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+}
+
+.grande {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: hwb(202 0% 0%);
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fa00d93d;
+}
+
+.boton {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#playPauseButton:hover {
+    background-color: #ff9900;
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px; /* Más espacio entre imágenes */
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.galeria img {
+    width: 340px; /* Tamaño uniforme */
+    height: auto;
+    border-radius: 20px; /* Bordes más suaves */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.galeria img:hover {
+    transform: scale(1.08);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+}
+

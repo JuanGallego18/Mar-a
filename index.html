@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer amor 🌙❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <div id="pagina1">
+    <div class="contenedor">
+        <h1>Hola, María</h1>
+        <div class="contenedor-caja">
+            <div class="caja">
+                <h2>¿Te preguntas qué es esto?</h2>
+                <p>
+                    Bueno, María, este es un detalle que tengo <br>
+                    para ti como una forma de agradecimiento <br>
+                    por todo lo que has hecho por mí. <br>
+                    Por esos regalos que siempre me has dado y que nunca te he devuelto, <br>
+                    por esos gestos de amabilidad que no siempre correspondí. <br>
+                    Sé que no es mucho, pero quiero que lo tengas presente. <br>
+                    En este proyecto quiero darte recuerdos, momentos y muchas cosas más <br>
+                    que no puedo expresar con palabras, pero sí con amor.
+                </p>
+            </div>
+            
+            <div class="caja">
+                <h2>¿Que si te quiero?</h2>
+                <p>
+                    María, obviamente te quiero demasiado, <br>
+                    a tal punto que ni yo mismo lo creo. <br>
+                    Eres tan importante para mí que a veces <br>
+                    me cuesta entender por qué dudas de mi cariño. <br>
+                    Me duele saber que dudas de mí, que ya no confías. <br>
+                    Pero, María, te quiero demasiado, tanto que daría todo por ti. <br>
+                    Eres única en mi mundo. <br>
+                    Y sé que piensas que es feo cuando estoy con Sara, según tú. <br>
+                    Pues, María, Sara lo sabe. Sabe lo que siento y siempre le fui sincero. <br>
+                    Tú eres demasiado importante en mi vida, una pieza fundamental en mi mundo. <br>
+                    Te quiero demasiado, mi luna 🌙❤️.
+                </p>
+            </div>
+
+            <div class="caja">
+                <h2>Muchas gracias</h2>
+                <p>
+                    Muchas gracias, María, por enseñarme a abrazar, <br>
+                    por enseñarme a querer de nuevo, <br>
+                    por sacarme de ese oscuro mundo en el que estaba. <br>
+                    Tú fuiste la persona que me ayudó a salir de mi soledad, <br>
+                    la única que logró devolverme la paz. <br>
+                    La única mujer que me dio la confianza para amarla <br>
+                    sin miedo a ser odiado o juzgado. <br>
+                    En verdad agradezco todo lo que hiciste por mí, <br>
+                    tanto en el pasado como en el presente. <br>
+                    Gracias a eso, eres demasiado importante en mi vida, preciosa. <br>
+                    Y que jamás se te olvide que siempre te voy a querer, <br>
+                    sin importar qué pase o qué tan lejos estemos. ❤️🌙
+                </p>
+            </div>
+        </div>
+
+        <h2>↓</h2>
+        <div class="caja grande">
+            <h2>¿Qué eres para mí?</h2>
+            <p>
+                Eres mi primer amor, literalmente. <br>
+                He estado con muchas mujeres, pero ninguna <br>
+                se acerca a lo que he sentido por ti. <br>
+                Eres la mujer perfecta para mí, <br>
+                un sueño hecho realidad, <br>
+                una película vivida, un cuento relatado. <br>
+                Sin importar cómo terminen nuestros caminos, <br>
+                juntos o separados, <br>
+                quiero que sepas que siempre serás la mujer <br>
+                que en verdad amé con toda mi alma. <br>
+                Siempre será así, sin importar nada, María. <br>
+                Nunca serás reemplazada y siempre serás única <br>
+                en mi corazón. Eres mi Luna Hermosa 🌙❤️.
+            </p>
+        </div>  
+        
+        <h2>Reprodúceme</h2>
+        <audio id="miAudio" controls>
+            <source src="https://files.catbox.moe/vrj5ow.mp3" type="audio/mpeg">
+            <source src="https://files.catbox.moe/vrj5ow.ogg" type="audio/ogg">
+            Tu navegador no soporta audio.
+        </audio>
+        
+        <button id="playAudio">Reproducir música</button>
+        
+        <script>
+            document.getElementById("playAudio").addEventListener("click", function() {
+                let audio = document.getElementById("miAudio");
+                audio.play().catch(error => console.log("Error al reproducir: ", error));
+            });
+        </script>
+        
+        
+        <button onclick="cambiarPagina(2)">Tócame</button>
+    </div>
+</div>
+
+
+
+
+<div id="pagina2" class="segunda-pagina" style="display: none;">
+    <h1>Recuerdos</h1>
+    <p>
+        Siempre ten en cuenta que nuestros recuerdos estarán en algun lugar de nuestros corazónes.
+    </p>
+    <div class="galeria">
+        <img src="https://lh3.googleusercontent.com/d/1urRD740-hkdFD2MCOWdD0go1KXBYukkY=w500" alt="Imagen 1">
+        <img src="https://lh3.googleusercontent.com/d/1_ThFhcxzxJyfD0Bdi9TKpt6eWNHVVMBO=w500" alt="Imagen 2">
+        <img src="https://lh3.googleusercontent.com/d/1lSD9fcpstj2mtwLshaHe-bsYnD8dldhq=w300" alt="Imagen 3">
+        <img src="https://lh3.googleusercontent.com/d/1IObjogKOQzI_QWz7B0cIg1NLuUsl_Vmx=w300" alt="Imagen 4">
+        <img src="https://lh3.googleusercontent.com/d/1zVaQKPpXxdgO50XCP4H8OkAL0nSwJFws=w300" alt="Imagen 5">
+        <img src="https://lh3.googleusercontent.com/d/1VplG9i5vS3FZ03IivWnV2iz2gdLv8TCD=w500" alt="Imagen 6">
+        <img src="https://lh3.googleusercontent.com/d/1ueRMS2SCRNTGNhYGQlrYTRfH3e0nMj1y=w500" alt="Imagen 7">
+        <img src="https://lh3.googleusercontent.com/d/15-rbe-u8OByM5pP-LTCdm8QB1kAvGG9E=w500" alt="Imagen 8">
+        <img src="https://lh3.googleusercontent.com/d/1O7eKnZOAHRXrC3L67mSzinvjGho5SQ1b=w500" alt="Imagen 9">
+        <img src="https://lh3.googleusercontent.com/d/1riMC8bnlxAycqNMV2yDMub_u9BwbY6sE=w300" alt="Imagen 11">
+        <img src="https://lh3.googleusercontent.com/d/1DQRWXMiwQrtDSaGMHvxwd9LBwM1KYdsJ=w500" alt="Imagen 12">
+        <img src="https://lh3.googleusercontent.com/d/1WZYgxEzC9XM4bD5jtYZhvOH-kBOKIQkl=w500" alt="Imagen 13">
+        <img src="https://lh3.googleusercontent.com/d/1-mcd58fqQBD78BjG1sC_jXBzfrE_pFmv=w500" alt="Imagen 14">
+        <img src="https://lh3.googleusercontent.com/d/19qwsmBJvfEYsxxkjcHcRv8w21kW-AASy=w500" alt="Imagen 15">
+    </div>
+    <button onclick="volver(1)">Volver</button>
+</div>
+<script src="Codigo.js"></script>
+<script>
+    function cambiarPagina() {
+        gsap.to("#pagina1", { opacity: 0, duration: 1, onComplete: function() {
+            document.getElementById('pagina1').style.display = 'none';
+            document.getElementById('pagina2').style.display = 'block';
+            gsap.to("#pagina2", { opacity: 1, duration: 1 });
+        }});
+    }
+
+    function volver() {
+        gsap.to("#pagina2", { opacity: 0, duration: 1, onComplete: function() {
+            document.getElementById('pagina2').style.display = 'none';
+            document.getElementById('pagina1').style.display = 'block';
+            gsap.to("#pagina1", { opacity: 1, duration: 1 });
+        }});
+    }
+</script>
+</body>
+</html>
